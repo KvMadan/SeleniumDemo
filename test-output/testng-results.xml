@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="60456" started-at="2018-06-03T06:23:43Z" finished-at="2018-06-03T06:24:44Z">
+    <groups>
+    </groups>
+    <test name="Grid Firefox Test" duration-ms="53388" started-at="2018-06-03T06:23:43Z" finished-at="2018-06-03T06:24:36Z">
+      <class name="com.kvm.sel.NewTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.kvm.sel.NewTest@1fa1d9b]" name="setUp" is-config="true" duration-ms="3918" started-at="2018-06-03T11:53:43Z" finished-at="2018-06-03T11:53:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="f()[pri:0, instance:com.kvm.sel.NewTest@1fa1d9b]" name="f" duration-ms="48173" started-at="2018-06-03T11:53:47Z" finished-at="2018-06-03T11:54:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.kvm.sel.NewTest@1fa1d9b]" name="afterTest" is-config="true" duration-ms="1291" started-at="2018-06-03T11:54:35Z" finished-at="2018-06-03T11:54:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.kvm.sel.NewTest -->
+    </test> <!-- Grid Firefox Test -->
+    <test name="Grid Chrome Test" duration-ms="60456" started-at="2018-06-03T06:23:43Z" finished-at="2018-06-03T06:24:44Z">
+      <class name="com.kvm.sel.NewTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.kvm.sel.NewTest@1081592]" name="setUp" is-config="true" duration-ms="2105" started-at="2018-06-03T11:53:43Z" finished-at="2018-06-03T11:53:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="f()[pri:0, instance:com.kvm.sel.NewTest@1081592]" name="f" duration-ms="58247" started-at="2018-06-03T11:53:45Z" finished-at="2018-06-03T11:54:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.kvm.sel.NewTest@1081592]" name="afterTest" is-config="true" duration-ms="88" started-at="2018-06-03T11:54:43Z" finished-at="2018-06-03T11:54:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.kvm.sel.NewTest -->
+    </test> <!-- Grid Chrome Test -->
+  </suite> <!-- Suite -->
+</testng-results>

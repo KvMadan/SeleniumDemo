@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="tests">
+  <parameter name="browser" value="firefox"/>
+  <test name="Grid Chrome Test(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.kvm.sel.NewTest">
+        <methods>
+          <include name="f"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.kvm.sel.NewTest -->
+    </classes>
+  </test> <!-- Grid Chrome Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

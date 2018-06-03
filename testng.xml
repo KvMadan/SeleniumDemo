@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" verbose="1">
+  <!-- <test thread-count="5" name="Grid IE Test">
+  <parameter name="browser" value="IE" />
+    <classes>
+      <class name="com.kvm.sel.NewTest"/>
+    </classes>
+  </test>-->
+  <test thread-count="5" name="Grid Chrome Test">
+  <parameter name="browser" value="chrome" />
+  	<classes>
+  		<class name="com.kvm.sel.NewTest"/>
+  	</classes>
+  </test>
+  <test thread-count="5" name="Grid Firefox Test">
+  <parameter name="browser" value="firefox" />
+  	<classes>
+  		<class name="com.kvm.sel.NewTest"/>
+  	</classes>
+  </test>
+  <!-- <test thread-count="5" name="Grid Edge Test">
+  <parameter name="browser" value="Edge" />
+  	<classes>
+  		<class name="com.kvm.sel.NewTest"/>
+  	</classes>
+  </test>-->
+</suite> <!-- Suite -->
